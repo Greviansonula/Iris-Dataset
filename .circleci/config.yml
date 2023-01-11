@@ -13,9 +13,3 @@ jobs:
           name: Run script
           command: |
             python3 logistic_regression.py
-      # - run:
-      #     name: Run tests
-      #     command: |
-      #       python3 test_logistic_regression.py
-      # - store_artifacts:
-      #     path: lr_model.pkl
